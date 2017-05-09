@@ -156,6 +156,26 @@
       ]
     },
     {
+      "match": "\\[",
+      "name": "constant.language.list.begin.elm"
+    },
+    {
+      "match": "\\]",
+      "name": "constant.language.list.end.elm"
+    },
+    {
+      "match": "\\(",
+      "name": "meta.brace.round.elm"
+    },
+    {
+      "match": "\\)",
+      "name": "meta.brace.round.elm"
+    },
+    {
+      "match": ":",
+      "name": "punctuation.colon.elm"
+    },
+    {
       "begin": "\"",
       "beginCaptures": {
         "0": {
@@ -216,6 +236,30 @@
       "patterns": [
         {
           "include": "#type_signature"
+        },
+        {
+          "match": "\\{",
+          "name": "constant.language.record.begin.elm"
+        },
+        {
+          "match": "\\}",
+          "name": "constant.language.record.end.elm"
+        },
+        {
+          "match": "\\(",
+          "name": "meta.brace.round.elm"
+        },
+        {
+          "match": "\\)",
+          "name": "meta.brace.round.elm"
+        },
+        {
+          "match": ",",
+          "name": "punctuation.separator.comma.elm"
+        },
+        {
+          "match": ":",
+          "name": "punctuation.colon.elm"
         }
       ]
     },
@@ -252,6 +296,14 @@
     {
       "match": ",",
       "name": "punctuation.separator.comma.elm"
+    },
+    {
+      "match": "\\{",
+      "name": "constant.language.record.begin.elm"
+    },
+    {
+      "match": "\\}",
+      "name": "constant.language.record.end.elm"
     }
   ],
   "repository": {
