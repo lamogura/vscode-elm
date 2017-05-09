@@ -1,6 +1,6 @@
 # Elm support for Visual Studio Code
 
-![Error highlighting](images/errorHighlighting.gif)
+![Error highlighting](https://github.com/Krzysztof-Cieslak/vscode-elm/raw/master/images/errorHighlighting.gif)
 
 ## Feature overview
 
@@ -41,7 +41,7 @@ Syntax highlighting is essential. The full language is supported. Can we improve
 
 ### Error highlighting
 
-![Error highlighting](images/errorHighlighting.gif)
+![Error highlighting](https://github.com/Krzysztof-Cieslak/vscode-elm/raw/master/images/errorHighlighting.gif)
 
 We support error highlighting **on save**. If you check *Auto save* under File, you should get feedback immediately.
 
@@ -50,13 +50,13 @@ We'll solve this in the next days.
 
 ### Function information
 
-![Function info](images/functionInfo.gif)
+![Function info](https://github.com/Krzysztof-Cieslak/vscode-elm/raw/master/images/functionInfo.gif)
 
 You can hover over a function and get the signature and comment.
 
 ### REPL
 
-![REPL](images/repl.gif)
+![REPL](https://github.com/Krzysztof-Cieslak/vscode-elm/raw/master/images/repl.gif)
 
 Not sure about the output of a function? Test it from inside the editor.
 
@@ -70,7 +70,7 @@ Open the actions menu and use one of the following commands:
 
 ### Reactor support
 
-![Reactor support](images/reactor.gif)
+![Reactor support](https://github.com/Krzysztof-Cieslak/vscode-elm/raw/master/images/reactor.gif)
 
 Reactor is the webserver which comes with Elm.
 
@@ -84,7 +84,7 @@ We support starting / stopping from within the editor.
 We support snippets for the basic language features. To use them, press `Ctrl+Space` and start typing.
 Or start with some characters and use `Ctrl+Space` for autocompletion.
 
-Want to know more? Look at the [snippet definitions](snippets/elm.json)
+Want to know more? Look at the [snippet definitions](https://github.com/Krzysztof-Cieslak/vscode-elm/blob/master/snippets/elm.json)
 
 ### Format
 
